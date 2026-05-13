@@ -43,6 +43,7 @@ sphinx = "*"
 sphinx_rtd_theme = "*"
 tqdm = "*"
 xarray = "*"
+scikit-learn = ">=1.8.0,<2"
 
 [pypi-dependencies]
 angles = "*"

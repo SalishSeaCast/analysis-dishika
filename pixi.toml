@@ -2,7 +2,7 @@
 authors = ["Dishika Taneja"]
 channels = ["conda-forge"]
 name = "analysis-dishika"
-platforms = ["linux-64", "osx-64", "win-64"]
+platforms = ["linux-64"]
 
 [tasks]
 
@@ -24,7 +24,7 @@ lxml = "*"
 matplotlib = "*"
 nbsphinx = "*"
 netcdf4 = "*"
-numpy = "*"
+numpy = ">=2.4.6,<3"
 openpyxl = "*"
 pandas = "*"
 pillow = "*"
@@ -42,9 +42,10 @@ shapely = "*"
 sphinx = "*"
 sphinx_rtd_theme = "*"
 tqdm = "*"
-xarray = "*"
+xarray = ">=2026.4.0,<2027"
 scikit-learn = ">=1.8.0,<2"
 
 [pypi-dependencies]
 angles = "*"
 salishseatools = { git = "https://github.com/SalishSeaCast/tools.git", subdirectory = "SalishSeaTools" }
+

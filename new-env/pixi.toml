@@ -1,0 +1,25 @@
+[workspace]
+authors = ["dishika12 <dishikataneja12@gmail.com>"]
+channels = ["conda-forge"]
+name = "new-env"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+ipykernel = ">=7.3.0,<8"
+xarray = ">=2026.4.0,<2027"
+netcdf4 = ">=1.7.4,<2"
+matplotlib = ">=3.10.9,<4"
+scikit-learn = ">=1.9.0,<2"
+dask = ">=2026.6.0,<2027"
+libstdcxx-ng = ">=12"
+libgcc-ng = ">=12"
+jupyter = ">=1.1.1,<2"
+nbconvert = ">=7.17.1,<8"
+numpy = "1.26.4.*"
+
+[pypi-dependencies]
+tensorflow = ">=2.21.0, <3"
